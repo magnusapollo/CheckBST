@@ -34,12 +34,11 @@ int main() {
 	else 
 		cout<<"Not a BST";
 	data = 0;
-	cout<<"\n";
-	cout<<"Enter data for BST: ";
+	cout<<"\nEnter data for Binary Tree: ";
 	cin>>data;	
 	while(data != -1) {
 		bt.insert(data);
-		cout<<"Enter data for BST: ";
+		cout<<"Enter data for Binary Tree: ";
 		cin>>data;
 	}
 	bt.printInorder(bt.getRoot());
